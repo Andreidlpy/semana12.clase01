@@ -7,8 +7,8 @@ html{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(26, 26, 26);
-    color: #ff96fc;
+    background-color: rgb(14, 0, 32);
+    color: #ffffff;
 }
 h1{
     font-size: 4rem;
@@ -46,11 +46,17 @@ a{
     padding: 1rem;
 }
 .question__section {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
     padding: 2rem;
 }
 .question {
     padding: 1rem 0;
 }
+.question__title{
+    color: #E169AA;
+}
+
 .question__text {
     padding: .5rem 0;
     text-wrap: balance;
