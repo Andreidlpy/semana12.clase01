@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__heading">Preguntas Javascript - Semana 12</h1>
+    </header>
+
+    <section class="question__section container">
+      <div class="questions__grid">
+        <article class="question">
+          <h4 class="question__title">
+            Como se transfiere la informacion basado en el protocolo http.
+          </h4>
+          <div class="question__answer">
+            <p class="question__text">
+              El usuario inicia una solicitud al servidor, el servidor procesa
+              esa solicitud y genera una respuesta que sera enviada al usuario.
+            </p>
+          </div>
+        </article>
+        <article class="question">
+          <h4 class="question__title">
+            Que son los verbos HTTP y cuales usamos.
+          </h4>
+          <div class="question__answer">
+            <p class="question__text">
+              son acciones que se utilizan en las solicitudes HTTP
+            </p>
+            <ul class="question__list">
+              <li>POST: <span>enviar información</span></li>
+              <li>GET: <span>obtener información</span></li>
+              <li>PUT: <span>actualizar información</span></li>
+              <li>DELETE: <span>actualizar información</span></li>
+            </ul>
+          </div>
+        </article>
+        <article class="question">
+          <h4 class="question__title">Que es un crud.</h4>
+          <p class="question__text">
+            Un CRUD es un acrónimo que se refiere a las cuatro operaciones
+            básicas que se pueden realizar en una base de datos o en una
+            aplicación que gestiona datos.
+          </p>
+          <ul class="question__list">
+            <li>C: <span>Create</span></li>
+            <li>R: <span>Read</span></li>
+            <li>U: <span>Update</span></li>
+            <li>D: <span>Delete</span></li>
+          </ul>
+        </article>
+        <article class="question">
+          <h4 class="question__title">Que es asincronia y sincronia.</h4>
+          <p class="question__text">
+            La sincronia es cuando las tareas o procesos se ejecutan uno después
+            del otro en un orden
+          </p>
+          <p class="question__text">
+            La asincronia es cuando las tareas pueden iniciarse y ejecutarse en
+            paralelo o en momentos diferentes, y no es necesario esperar a que
+            una tarea se complete antes de comenzar otra.
+          </p>
+        </article>
+        <article class="question">
+          <h4 class="question__title">Como maneja la asincronia js.</h4>
+          <p class="question__text">JavaScript maneja la asincronía a través de un modelo de ejecución basado en eventos y callbacks, aunque en versiones más recientes del lenguaje, se han introducido características como Promesas y async/await para simplificar el manejo de código asíncrono. </p>
+        </article>
+        <article class="question">
+          <h4 class="question__title">
+            Como realizar peticionas js / como manejar la data.
+          </h4>
+          <p class="question__text">
+            La peticiones se realizan con fetch, axios y xmlHTTPRequest
+          </p>
+          <p>
+            La data se maneja con callbacks, promesas y async / await
+          </p>
+        </article>
+        <article class="question">
+          <h4 class="question__title">
+            Realizar un consumo de api rest y consolear la data.
+          </h4>
+          <ul class="question__list" id="user-list">
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

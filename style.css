@@ -1,0 +1,60 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 26, 26);
+    color: #ff96fc;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.4rem;
+}
+p{
+    font-size: 1.8rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header__heading{
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.container{
+    width: 800px;
+    max-width: 98%;
+    margin: 0 auto;
+}
+.header {
+    padding: 1rem;
+}
+.question__section {
+    padding: 2rem;
+}
+.question {
+    padding: 1rem 0;
+}
+.question__text {
+    padding: .5rem 0;
+    text-wrap: balance;
+}
+.question__list li{
+    font-size: 1.5rem;
+}
